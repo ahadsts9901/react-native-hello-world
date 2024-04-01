@@ -1,4 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
 
 export default function App() {
@@ -16,7 +15,6 @@ export default function App() {
       <Text style={styles.heading2}>My first react native app</Text>
       <Text style={styles.heading2}>10 + 90 = {10 + 90}</Text>
       <Text>React Native Is Amazing &copy;</Text>
-      <StatusBar style="auto" />
     </View>
   );
 }
